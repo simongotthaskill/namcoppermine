@@ -129,9 +129,8 @@ nav .fa{
             z-index: 2;
             transition: 1s;
            }
-           .nav .fa{
+           .nav-links .fa{
              display: block;
-             color: #fff;
              margin: 10px;
              font-size: 22px;
              cursor: pointer;
@@ -142,7 +141,7 @@ nav .fa{
     cursor: pointer;
     margin: 10px;
        }
-       nav svg{
+       nav .fa{
     font-size: 22px;
     display: block;
     cursor: pointer;
