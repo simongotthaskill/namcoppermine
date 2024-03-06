@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Copper Mining Comapny Website</title>
+     <link rel="stylesheet" type="text/css" href="stylee.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+           <a href="index.html"><img src="Copper.png"></a>
+           <div class="nav-links" id="navLinks">
+           <svg width="50" height="50"><image href="bars-solid.svg" width="50" height="50" onclick="hideMenu()"/></svg>
+              <i class="fa fa-times"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">SERVICE</a></li>
+                   <li><a href="blog.html">SALES</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <svg width="50" height="50"><image href="bars-solid.svg" width="50" height="50" onclick="showMenu()"/></svg>
+       </nav>
+       
+    <h1>Our Sales For The Year 2024</h1>
+                                 
+    </section>
+    
+ <!------------- blog page content ---------->
+ 
+ <section class="blog-content">
+       
+       <div class="row">
+          <div class="blog-left">
+              <img src="site.jpg">
+              <h2>Our Sales For The<br> Year 2024</h2>
+              <p>Creating a positive impact in the lives of our people and communities by producing copper to meet the world’s growing needs.</p>
+              
+              <div class="comment-box">
+                   <h3><strong>Leave a comment</strong></h3>
+                   
+                   <form class="comment-form">
+                       <input type="text" placeholder="Enter your Full Name">
+                       <input type="email" placeholder="Enter your email">
+                       <textarea rows="5" placeholder="your comment"></textarea>
+                       
+                       <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                   
+                   </form>      
+          </div>
+        </div>
+          <div class="blog-right">
+             <h3>Weight in Tons</h3>
+             <div>
+                  <span>raw copper</span>
+                  <span>21</span>
+             </div>
+               <div>
+                  <span>light-weight copper</span>
+                  <span>28</span>
+             </div>
+               <div>
+                  <span>heavy-weight copper</span>
+                  <span>34</span>
+             </div>
+               <div>
+                  <span>clear copper</span>
+                  <span>15</span>
+             </div>
+               <div>
+                  <span>other</span>
+                  <span>22</span>
+             </div>
+          </div>
+       </div>
+ </section>   
+  <!----------- call to action ------------>
+   
+   <section class="cta">
+          <h1>Get In Touch With Us <br>From Anywhere The World</h1>
+          <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+     
+ 
+  <!----------- footer ------------>
+   <section class="footer">
+      <h4>About us</h4>
+      <p>We are a dedicated copper mining company that strives to be the biggest merchant in Copper. <br>With the help of dedicated and motivated staffs we tend to produce more tons of copper effortlessly</p>
+   <div class="icons">
+       <svg width="30" height="30"><image href="facebook.svg" width="30" height="30"/></svg>
+       <svg width="30" height="30"><image href="instagram.svg" width="30" height="30"/></svg>
+       <svg width="30" height="30"><image href="linkedin.svg" width="30" height="30"/></svg>
+   </div>
+   <p>Gently made by Team Well Shvdow</p>
+   <p>© since 2024 | copper mining company | All Rights Reserved</p>  
+  </section>  
+    
+    
+    
+    
+
+<!----------Javascript for toogle menu------------>
+<script>
+      
+      var navLinks = document.getElementById("navLinks");
+      
+      function showMenu(){
+           navLinks.style.right = "0";
+      }
+      function hideMenu(){
+           navLinks.style.right = "-200px";
+       }
+
+</script>
+
+
+
+</body>
+</html>
