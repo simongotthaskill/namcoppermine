@@ -523,6 +523,13 @@ iframe{
    align-items: center;
    margin-bottom: 40px;
 }
+.contact-col div .fa{
+   font-size: 28px;
+    color: violet;
+    margin: 10px;
+    margin-right: 30px;
+    
+}
 .contact-col div p{
    padding: 0;
 }
