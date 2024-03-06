@@ -135,7 +135,7 @@ nav .fa-regular{
              font-size: 22px;
              cursor: pointer;
        }
-       .nav-links svg{
+       .nav-links .fa{
     font-size: 22px;
     display: block;
     cursor: pointer;
@@ -383,8 +383,8 @@ h3{
     margin-top: 20px;
     font-weight: 600;
 }
-.icons svg{
-    color: #f44336;
+.icons .fa{
+    font-size: 30px;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
