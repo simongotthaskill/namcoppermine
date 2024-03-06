@@ -96,7 +96,7 @@ video{
        background:  #f44336;
        transition: 1s;
 }
-nav .fa{
+nav .fa-regular{
         display: none;
 }
 .nav-links svg{
@@ -129,7 +129,7 @@ nav .fa{
             z-index: 2;
             transition: 1s;
            }
-           .nav-links .fa{
+           .nav-links .fa-regular{
              display: block;
              margin: 10px;
              font-size: 22px;
@@ -141,7 +141,7 @@ nav .fa{
     cursor: pointer;
     margin: 10px;
        }
-       nav .fa{
+       nav .fa-regular{
     font-size: 22px;
     display: block;
     cursor: pointer;
